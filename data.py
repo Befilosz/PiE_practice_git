@@ -7,3 +7,4 @@ df.head()
 col = df[['INDUS', 'PTRATIO']]
 image = col.hist(bins=3)
 # some comments for practice
+# another comment
