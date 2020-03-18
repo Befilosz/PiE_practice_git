@@ -6,3 +6,4 @@ df = pd.DataFrame(boston.data, columns=boston.feature_names)
 df.head()
 col = df[['INDUS', 'PTRATIO']]
 image = col.hist(bins=3)
+# some comments for practice
